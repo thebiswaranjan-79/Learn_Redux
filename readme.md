@@ -15,4 +15,16 @@ Functions of REDUX
 
  ## Alternative of this functions
 
-=> compose -> composeDemo2.js
+=> compose -> compose Demo2.js
+
+## Create Store function 
+-> it takes reducer function as an argument and a initial state, it returns a Object 
+
+=> Object {
+
+    -> subscribe 
+    -> despatch 
+    -> getState
+    -> replaceReducer
+    
+}
