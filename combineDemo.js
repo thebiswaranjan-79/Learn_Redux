@@ -19,10 +19,11 @@ let str = "hello there how are you ?"
 
 const func = [str, removeSpaces, repeatString, makeUpperCase, makeItalics];
 // const result = func.map(f => f(str));
-const result = func.reduce((prevAns, currFunc) => {
-    // console.log(prevAns, currFunc);
-    return currFunc(prevAns(ans));
+let result = func.reduce((prevAns, currFunc) => {
+    console.log(prevAns, currFunc);
+    return currFunc(prevAns);
 });
+console.log("Final ans ", result);
 
 // console.log(result);
 

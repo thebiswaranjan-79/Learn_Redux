@@ -14,4 +14,5 @@ Functions of REDUX
               -> removeSpace -> repeatString -> makeUpperCase -> makeItalic
 
  ## Alternative of this functions
-=> createStore 
+
+=> compose -> composeDemo2.js
